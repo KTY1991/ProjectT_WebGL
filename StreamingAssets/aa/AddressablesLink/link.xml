@@ -2,21 +2,35 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ACharacter" preserve="all" />
     <type fullname="ACrate" preserve="all" />
+    <type fullname="ADummy" preserve="all" />
     <type fullname="AGrass" preserve="all" />
     <type fullname="ALilyPad" preserve="all" />
     <type fullname="AMushroom" preserve="all" />
     <type fullname="AnimationController" preserve="all" />
     <type fullname="ATree" preserve="all" />
+    <type fullname="AttackIndicator" preserve="all" />
     <type fullname="CameraController" preserve="all" />
-    <type fullname="DummyController" preserve="all" />
+    <type fullname="CircularIndicator" preserve="all" />
+    <type fullname="FanIndicator" preserve="all" />
+    <type fullname="ItemTable" preserve="all" />
+    <type fullname="LineIndicator" preserve="all" />
     <type fullname="PlantTable" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
+    <type fullname="ProjectileIndicator" preserve="all" />
+    <type fullname="RadialIndicator" preserve="all" />
     <type fullname="UI_GamePad" preserve="all" />
     <type fullname="UI_GameScene" preserve="all" />
+    <type fullname="UI_InventoryPopup" preserve="all" />
+    <type fullname="UI_ItemInfo" preserve="all" />
     <type fullname="UI_LobbyScene" preserve="all" />
     <type fullname="UI_TitleScene" preserve="all" />
+    <type fullname="WeaponAnimationTable" preserve="all" />
     <type fullname="CameraController/PitchAngle" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[Define/ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
+    <type fullname="SerializeFieldDictionary`2[ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
+    <type fullname="AnimationData" preserve="nothing" serialized="true" />
+    <type fullname="SerializeFieldDictionary`2[WeaponType,WeaponAnimationTable/WeaponAnimationData]" preserve="nothing" serialized="true" />
+    <type fullname="WeaponAnimationTable/WeaponAnimationData" preserve="nothing" serialized="true" />
+    <type fullname="WeaponData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
@@ -83,6 +97,7 @@
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
@@ -98,14 +113,21 @@
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
   </assembly>
