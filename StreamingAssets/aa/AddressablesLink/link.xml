@@ -4,6 +4,7 @@
     <type fullname="ACrate" preserve="all" />
     <type fullname="ADummy" preserve="all" />
     <type fullname="AGrass" preserve="all" />
+    <type fullname="AItem" preserve="all" />
     <type fullname="ALilyPad" preserve="all" />
     <type fullname="AMushroom" preserve="all" />
     <type fullname="AnimationController" preserve="all" />
@@ -21,6 +22,7 @@
     <type fullname="UI_GamePad" preserve="all" />
     <type fullname="UI_GameScene" preserve="all" />
     <type fullname="UI_InventoryPopup" preserve="all" />
+    <type fullname="UI_Item" preserve="all" />
     <type fullname="UI_ItemInfo" preserve="all" />
     <type fullname="UI_LobbyScene" preserve="all" />
     <type fullname="UI_TitleScene" preserve="all" />
@@ -93,7 +95,6 @@
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
-    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
