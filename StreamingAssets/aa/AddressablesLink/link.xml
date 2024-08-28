@@ -29,6 +29,7 @@
     <type fullname="WeaponAnimationTable" preserve="all" />
     <type fullname="CameraController/PitchAngle" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
+    <type fullname="SerializeFieldDictionary`2[EquipmentType,UnityEngine.Transform]" preserve="nothing" serialized="true" />
     <type fullname="AnimationData" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[WeaponType,WeaponAnimationTable/WeaponAnimationData]" preserve="nothing" serialized="true" />
     <type fullname="WeaponAnimationTable/WeaponAnimationData" preserve="nothing" serialized="true" />
