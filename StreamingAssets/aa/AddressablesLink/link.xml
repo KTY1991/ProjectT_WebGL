@@ -1,39 +1,53 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="ACharacter" preserve="all" />
-    <type fullname="ACrate" preserve="all" />
-    <type fullname="ADummy" preserve="all" />
-    <type fullname="AGrass" preserve="all" />
-    <type fullname="AItem" preserve="all" />
-    <type fullname="ALilyPad" preserve="all" />
-    <type fullname="AMushroom" preserve="all" />
     <type fullname="AnimationController" preserve="all" />
-    <type fullname="ATree" preserve="all" />
     <type fullname="AttackIndicator" preserve="all" />
+    <type fullname="BehaviorDesigner.Runtime.BehaviorTree" preserve="all" />
+    <type fullname="BehaviorDesigner.Runtime.ExternalBehaviorTree" preserve="all" />
     <type fullname="CameraController" preserve="all" />
+    <type fullname="ChickenObject" preserve="all" />
     <type fullname="CircularIndicator" preserve="all" />
+    <type fullname="CrateObject" preserve="all" />
+    <type fullname="DummyObject" preserve="all" />
     <type fullname="FanIndicator" preserve="all" />
-    <type fullname="ItemTable" preserve="all" />
+    <type fullname="GrassObject" preserve="all" />
+    <type fullname="ItemObject" preserve="all" />
+    <type fullname="LilyPadObject" preserve="all" />
     <type fullname="LineIndicator" preserve="all" />
-    <type fullname="PlantTable" preserve="all" />
+    <type fullname="MushroomObject" preserve="all" />
+    <type fullname="NpcObject" preserve="all" />
     <type fullname="PlayerController" preserve="all" />
+    <type fullname="PlayerObject" preserve="all" />
     <type fullname="ProjectileIndicator" preserve="all" />
     <type fullname="RadialIndicator" preserve="all" />
+    <type fullname="SO_ActionTable" preserve="all" />
+    <type fullname="SO_DialogueRecord" preserve="all" />
+    <type fullname="SO_DialogueTable" preserve="all" />
+    <type fullname="SO_DropItemTable" preserve="all" />
+    <type fullname="SO_ItemRecord" preserve="all" />
+    <type fullname="SO_ObjectRecord" preserve="all" />
+    <type fullname="SO_ObjectSpawnTable" preserve="all" />
+    <type fullname="SO_ObjectTable" preserve="all" />
+    <type fullname="SO_SelectionRecord" preserve="all" />
+    <type fullname="SO_SelectionTable" preserve="all" />
+    <type fullname="SO_ShakeSetting" preserve="all" />
+    <type fullname="SO_WeaponRecord" preserve="all" />
+    <type fullname="TreeObject" preserve="all" />
+    <type fullname="UI_DialoguePopup" preserve="all" />
     <type fullname="UI_GamePad" preserve="all" />
     <type fullname="UI_GameScene" preserve="all" />
     <type fullname="UI_InventoryPopup" preserve="all" />
     <type fullname="UI_Item" preserve="all" />
     <type fullname="UI_ItemInfo" preserve="all" />
     <type fullname="UI_LobbyScene" preserve="all" />
+    <type fullname="UI_ResultPopup" preserve="all" />
+    <type fullname="UI_Selection" preserve="all" />
     <type fullname="UI_TitleScene" preserve="all" />
-    <type fullname="WeaponAnimationTable" preserve="all" />
     <type fullname="CameraController/PitchAngle" preserve="nothing" serialized="true" />
     <type fullname="SerializeFieldDictionary`2[ActionType,UnityEngine.AnimationClip]" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[EquipmentType,UnityEngine.Transform]" preserve="nothing" serialized="true" />
-    <type fullname="AnimationData" preserve="nothing" serialized="true" />
-    <type fullname="SerializeFieldDictionary`2[WeaponType,WeaponAnimationTable/WeaponAnimationData]" preserve="nothing" serialized="true" />
-    <type fullname="WeaponAnimationTable/WeaponAnimationData" preserve="nothing" serialized="true" />
-    <type fullname="WeaponData" preserve="nothing" serialized="true" />
+    <type fullname="ActionRecord" preserve="nothing" serialized="true" />
+    <type fullname="GoogleScriptAPI" preserve="nothing" serialized="true" />
+    <type fullname="ObjectSpawnRecord" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
@@ -74,6 +88,9 @@
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshAgent" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
@@ -101,11 +118,16 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
     <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.HingeJoint" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.PhysicMaterial" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
     <type fullname="UnityEngine.SphereCollider" preserve="all" />
   </assembly>
@@ -118,6 +140,7 @@
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.Mask" preserve="all" />
     <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
@@ -136,6 +159,14 @@
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Canvas" preserve="all" />
     <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="BehaviorDesigner.Runtime">
+    <type fullname="BehaviorDesigner.Runtime.BehaviorSource" preserve="nothing" serialized="true" />
+    <type fullname="BehaviorDesigner.Runtime.FieldSerializationData" preserve="nothing" serialized="true" />
+    <type fullname="BehaviorDesigner.Runtime.TaskSerializationData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Sirenix.Serialization">
+    <type fullname="Sirenix.Serialization.SerializationData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.TextCoreFontEngineModule">
     <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
